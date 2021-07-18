@@ -1,0 +1,44 @@
+
+div{
+    align: center;
+}
+
+.khung{
+    border-style: solid;
+    padding: 100px;
+    margin: 100px 350px 100px 350px;
+    background-color: rgb(181, 228, 243);
+    border-radius: 6px;
+}
+
+table{
+    border: 3px solid black;
+    width: 100% ;
+}
+
+.cot{
+    background-color:rgb(231, 201, 154);
+}
+
+#area{
+    background-color:rgb(231, 201, 154);
+}
+#description{
+    background-color:rgb(231, 201, 154);
+}
+#GDP{
+    background-color:rgb(231, 201, 154);
+}
+#population{
+    background-color:rgb(231, 201, 154);
+}
+#country{
+    background-color:rgb(231, 201, 154);
+}
+#name{
+    background-color:rgb(231, 201, 154);
+}
+
+.suatp{
+    padding-left: 400px;
+}

@@ -1,0 +1,33 @@
+
+div{
+    align: center;
+}
+
+.khung{
+    border-style: solid;
+    padding: 100px;
+    margin: 100px 350px 100px 350px;
+    background-color: rgb(181, 228, 243);
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 35px;
+    padding-left: 130px;
+}
+
+table{
+    border: 3px solid black;
+    width: 100% ;
+}
+
+.cot1{
+    /* color: blue; */
+    background-color:rgb(226, 125, 66);
+}
+
+.cot{
+    background-color:rgb(231, 201, 154);
+}
+
+
