@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Xóa thành phố</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/create.css">
+    <style>
+        div{
+            align: center;
+        }
+
+        .khung{
+            border-style: solid;
+            padding: 100px;
+            margin: 100px 350px 100px 350px;
+            background-color: rgb(181, 228, 243);
+            border-radius: 6px;
+        }
+
+        table{
+            border: 3px solid black;
+            width: 100% ;
+        }
+
+        .cot{
+            background-color:rgb(231, 201, 154);
+        }
+
+        #area{
+            background-color:rgb(231, 201, 154);
+        }
+        #description{
+            background-color:rgb(231, 201, 154);
+        }
+        #GDP{
+            background-color:rgb(231, 201, 154);
+        }
+        #population{
+            background-color:rgb(231, 201, 154);
+        }
+        #country{
+            background-color:rgb(231, 201, 154);
+        }
+        #name{
+            background-color:rgb(231, 201, 154);
+        }
+
+        .suatp{
+            padding-left: 400px;
+        }
+    </style>
+</head>
+<body>
+<div align="center" class="khung">
+    <div>
+        <h2>Xóa thành phố</h2>
+    </div>
+    <br>
+    <div>
+        <h5>Bạn có chắc chắn muốn xóa thành phố </h5>
+    </div>
+    <br>
+    <div>
+        <form method="post" th:action="@{/delete-city}" th:object="${city}">
+            <input th:type="hidden" name="id" th:field="*{id}">
+            <input class="btn btn-warning" type="submit" value="Xóa"/>
+            <a class="btn btn-warning" href="/citys">Thoát</a>
+        </form>
+    </div>
+</div>
+</body>
+</html>
